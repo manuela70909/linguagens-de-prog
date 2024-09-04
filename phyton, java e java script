@@ -1,0 +1,54 @@
+-> Pyhton 
+
+# Definindo uma função para exibir uma mensagem personalizada
+def exibir_mensagem(nome):
+    # Montando a frase com o nome fornecido
+    frase = f"Meu nome é {nome}"
+    # Imprimindo a frase na tela
+    print(frase)
+
+# Nome da pessoa
+nome_pessoa = "Manuela"
+
+# Chamando a função com o nome da pessoa
+exibir_mensagem(nome_pessoa)
+
+
+-> Java
+
+public class Main {
+    // Método principal que é o ponto de entrada do programa
+    public static void main(String[] args) {
+        // Definindo o nome da pessoa
+        String nomePessoa = "Manuela";
+        
+        // Chamando o método para exibir a mensagem
+        exibirMensagem(nomePessoa);
+    }
+
+    // Método para exibir uma mensagem personalizada
+    public static void exibirMensagem(String nome) {
+        // Montando a frase com o nome fornecido
+        String frase = "Meu nome é " + nome;
+        
+        // Imprimindo a frase na tela
+        System.out.println(frase);
+    }
+}
+
+
+-> Java Script
+
+// Definindo uma função para exibir uma mensagem personalizada
+function exibirMensagem(nome) {
+    // Montando a frase com o nome fornecido
+    const frase = `Meu nome é ${nome}`;
+    // Exibindo a frase na tela (console do navegador ou Node.js)
+    console.log(frase);
+}
+
+// Nome da pessoa
+const nomePessoa = "Manuela";
+
+// Chamando a função com o nome da pessoa
+exibirMensagem(nomePessoa);
